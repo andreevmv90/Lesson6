@@ -1,0 +1,16 @@
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\bin\Debug\net5.0\BoxContainer.exe
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\bin\Debug\net5.0\BoxContainer.deps.json
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\bin\Debug\net5.0\BoxContainer.runtimeconfig.json
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\bin\Debug\net5.0\BoxContainer.runtimeconfig.dev.json
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\bin\Debug\net5.0\BoxContainer.dll
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\bin\Debug\net5.0\ref\BoxContainer.dll
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\bin\Debug\net5.0\BoxContainer.pdb
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\obj\Debug\net5.0\BoxContainer.csproj.AssemblyReference.cache
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\obj\Debug\net5.0\BoxContainer.GeneratedMSBuildEditorConfig.editorconfig
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\obj\Debug\net5.0\BoxContainer.AssemblyInfoInputs.cache
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\obj\Debug\net5.0\BoxContainer.AssemblyInfo.cs
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\obj\Debug\net5.0\BoxContainer.csproj.CoreCompileInputs.cache
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\obj\Debug\net5.0\BoxContainer.dll
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\obj\Debug\net5.0\ref\BoxContainer.dll
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\obj\Debug\net5.0\BoxContainer.pdb
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\BoxContainer\obj\Debug\net5.0\BoxContainer.genruntimeconfig.cache
