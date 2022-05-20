@@ -8,24 +8,20 @@ namespace BoxContainer
 {
     public class Ball : Shape
     {
-        private readonly int _radius;
 
         public int Radius
         {
-            get
-            {
-                return _radius;
-            }
+            get;
         }
 
         public Ball(int radius)
         {
-            _radius = radius;
+            Radius = radius;
         }
 
         public override double Volume()
         {
-            return (4 * Math.PI / 3) * MyPow(_radius, 3);
+            return (4 * Math.PI / 3) * MyPow(Radius, 3);
         }
     }
 }

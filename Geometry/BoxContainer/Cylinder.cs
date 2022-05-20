@@ -8,35 +8,27 @@ namespace BoxContainer
 {
     public class Cylinder : Shape
     {
-        private readonly int _height;
-        private readonly int _radius;
 
         public int Height
         {
-            get
-            {
-                return _height;
-            }
+            get;
         }
 
         public int Radius
         {
-            get
-            {
-                return _radius;
-            }
+            get;
         }
 
 
         public Cylinder(int height, int radius)
         {
-            _height = height;
-            _radius = radius;
+            Height = height;
+            Radius = radius;
         }
 
         public override double Volume()
         {
-            return Math.PI * MyPow(_radius, 2) * _height;
+            return Math.PI * MyPow(Radius, 2) * Height;
         }
     }
 }

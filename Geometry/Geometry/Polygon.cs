@@ -8,98 +8,40 @@ namespace PolygonCreator
 {
     public class Polygon
     {
-        private readonly Point _point1;
-        private readonly Point _point2;
-        private readonly Point _point3;
-        private readonly Point _point4;
-        private readonly Point _point5;
-
-        private readonly string _name;
+        private List<Point> _points;
 
         public string Name
         {
+            get;
+        }
+
+        public double Perimetr
+        {
             get
             {
-                return _name;
+                return PerimetrCalc(_points);
             }
         }
 
-        public double? Perimetr
+        public Polygon(string name, List<Point> points)
         {
-            get 
+            Name = name;
+            if (points.Count < 3)
+                throw new Exception("Error number of points");
+            _points = points;
+        }
+
+        private double PerimetrCalc(List<Point> points)
+        {
+            var result = 0.0;
+            for(var i = 0; i < points.Count - 1; i++)
             {
-                double? result;
-
-                if (_point1 != null && _point2 != null && _point3 != null)
-                {
-                    if (_point4 != null && _point5 != null)
-                    {
-                        result = PerimetrCalc(_point1, _point2, _point3, _point4, _point5);
-                    }
-                    else if (_point4 != null)
-                    {
-                        result = PerimetrCalc(_point1, _point2, _point3, _point4);
-                    }
-                    else
-                    {
-                        result = PerimetrCalc(_point1, _point2, _point3);
-                    }
-                }
-                else
-                {
-                    result = null;
-                }
-
-                return result;
+                result += Math.Sqrt(MyPow(points[i + 1].X - points[i].X, 2) + MyPow(points[i + 1].Y - points[i].Y, 2));
             }
+            result += Math.Sqrt(MyPow(points[points.Count - 1].X - points[0].X, 2) + MyPow(points[points.Count - 1].Y - points[0].Y, 2));
+            return result;
         }
 
-        public Polygon(string name, Point point1, Point point2, Point point3)
-        {
-            _name = name;
-            _point1 = point1;
-            _point2 = point2;
-            _point3 = point3;
-        }
-
-        public Polygon(string name, Point point1, Point point2, Point point3, Point point4) 
-            : this(name, point1, point2, point3)
-        {
-            _point4 = point4;
-        }
-
-        public Polygon(string name, Point point1, Point point2, Point point3, Point point4, Point point5) 
-            : this(name, point1, point2, point3, point4)
-        {
-            _point5 = point5;
-        }
-
-        private double PerimetrCalc(Point point1, Point point2, Point point3)
-        {
-            var side1 = Math.Sqrt(MyPow(point2.X - point1.X, 2) + MyPow(point2.Y - point1.Y, 2)); // точка 1 и 2
-            var side2 = Math.Sqrt(MyPow(point3.X - point1.X, 2) + MyPow(point3.Y - point1.Y, 2)); // точка 1 и 3
-            var side3 = Math.Sqrt(MyPow(point3.X - point2.X, 2) + MyPow(point3.Y - point2.Y, 2)); // точка 2 и 3
-            return side1 + side2 + side3;
-        }
-
-        private double PerimetrCalc(Point point1, Point point2, Point point3, Point point4)
-        {
-            var side1 = Math.Sqrt(MyPow(point2.X - point1.X, 2) + MyPow(point2.Y - point1.Y, 2)); // точка 1 и 2
-            var side2 = Math.Sqrt(MyPow(point3.X - point2.X, 2) + MyPow(point3.Y - point2.Y, 2)); // точка 2 и 3
-            var side3 = Math.Sqrt(MyPow(point3.X - point4.X, 2) + MyPow(point3.Y - point4.Y, 2)); // точка 3 и 4
-            var side4 = Math.Sqrt(MyPow(point1.X - point4.X, 2) + MyPow(point1.Y - point4.Y, 2)); // точка 1 и 4
-            return side1 + side2 + side3 + side4;
-        }
-
-        private double PerimetrCalc(Point point1, Point point2, Point point3, Point point4, Point point5)
-        {
-            var side1 = Math.Sqrt(MyPow(point2.X - point1.X, 2) + MyPow(point2.Y - point1.Y, 2)); // точка 1 и 2
-            var side2 = Math.Sqrt(MyPow(point3.X - point2.X, 2) + MyPow(point3.Y - point2.Y, 2)); // точка 2 и 3
-            var side3 = Math.Sqrt(MyPow(point3.X - point4.X, 2) + MyPow(point3.Y - point4.Y, 2)); // точка 3 и 4
-            var side4 = Math.Sqrt(MyPow(point5.X - point4.X, 2) + MyPow(point5.Y - point4.Y, 2)); // точка 4 и 5
-            var side5 = Math.Sqrt(MyPow(point5.X - point1.X, 2) + MyPow(point5.Y - point1.Y, 2)); // точка 1 и 5
-            return side1 + side2 + side3 + side4 + side5;
-        }
 
         private static int MyPow(int value, int step)
         {

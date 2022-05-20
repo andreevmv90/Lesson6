@@ -8,24 +8,19 @@ namespace BoxContainer
 {
     public class Box : Shape
     {
-        private readonly int _height;
-
         public int Height
         {
-            get
-            {
-                return _height;
-            }
+            get;
         }
 
         public Box(int height)
         {
-            _height = height;
+            Height = height;
         }
         
         public override double Volume()
         {
-            return _remainedVolume = MyPow(_height, 3);
+            return _remainedVolume = MyPow(Height, 3);
         }
 
         /*

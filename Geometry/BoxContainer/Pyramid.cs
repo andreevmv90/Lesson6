@@ -8,34 +8,26 @@ namespace BoxContainer
 {
     public class Pyramid : Shape
     {
-        private readonly int _height;
-        private readonly int _square;
 
         public int Height
         {
-            get
-            {
-                return _height;
-            }
+            get;
         }
 
         public int Square
         {
-            get
-            {
-                return _square;
-            }
+            get;
         }
 
         public Pyramid(int height, int square)
         {
-            _height = height;
-            _square = square;
+            Height = height;
+            Square = square;
         }
 
         public override double Volume()
         {
-            return _height * _square / 3;
+            return Height * Square / 3;
         }
     }
 }

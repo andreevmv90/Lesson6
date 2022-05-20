@@ -8,39 +8,27 @@ namespace PolygonCreator
 {
     public class Point
     {
-        private readonly string _name;
-        private readonly int _x;
-        private readonly int _y;
 
         public Point(string name, int x, int y)
         {
-            _name = name;
-            _x = x;
-            _y = y;
+            Name = name;
+            X = x;
+            Y = y;
         }
 
         public string Name 
-        { 
-            get 
-            { 
-                return _name; 
-            } 
+        {
+            get;
         }
 
         public int X 
         {
-            get
-            {
-                return _x;
-            }
+            get;
         }
 
         public int Y
         {
-            get
-            {
-                return _y;
-            }
+            get;
         }
     }
 }
