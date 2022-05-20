@@ -15,7 +15,7 @@ namespace PolygonCreator
             get;
         }
 
-        public double Perimetr
+        public double GetPerimetr
         {
             get
             {

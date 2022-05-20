@@ -5,7 +5,6 @@ D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geom
 D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\bin\Debug\net5.0\PolygonCreator.dll
 D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\bin\Debug\net5.0\ref\PolygonCreator.dll
 D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\bin\Debug\net5.0\PolygonCreator.pdb
-D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\obj\Debug\net5.0\PolygonCreator.csproj.AssemblyReference.cache
 D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\obj\Debug\net5.0\PolygonCreator.GeneratedMSBuildEditorConfig.editorconfig
 D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\obj\Debug\net5.0\PolygonCreator.AssemblyInfoInputs.cache
 D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\obj\Debug\net5.0\PolygonCreator.AssemblyInfo.cs
@@ -14,3 +13,4 @@ D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geom
 D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\obj\Debug\net5.0\ref\PolygonCreator.dll
 D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\obj\Debug\net5.0\PolygonCreator.pdb
 D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\obj\Debug\net5.0\PolygonCreator.genruntimeconfig.cache
+D:\YandexDisk\ФПК\МОИ ФПК\Rubius\Вебинар 6\Lesson6\Geometry\Geometry\obj\Debug\net5.0\PolygonCreator.csproj.AssemblyReference.cache

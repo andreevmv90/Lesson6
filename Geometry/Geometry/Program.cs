@@ -20,7 +20,7 @@ namespace PolygonCreator
 
             var polygon = new Polygon(name, points);                
 
-            Console.WriteLine($"Figure '{polygon.Name}' has perimetr = {polygon.Perimetr}");
+            Console.WriteLine($"Figure '{polygon.Name}' has perimetr = {polygon.GetPerimetr}");
             Console.ReadKey();
         }
     }
