@@ -1,15 +1,13 @@
-﻿using PolygonCreator;
+using PolygonCreator;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace UnitTests
 {
     public class PolygonTest
     {
+       
         [Fact]
         public void PerimeterTest()
         {
@@ -20,7 +18,7 @@ namespace UnitTests
                 new Point("Point3", 20, 10)
             };
 
-            var polygon = new Polygon("Polygon", points);
+            var polygon = new Polygon("Name", points);
 
             Assert.Equal(34.1421, polygon.GetPerimetr, 3);
         }
